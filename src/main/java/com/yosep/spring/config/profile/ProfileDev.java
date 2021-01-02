@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @Profile(value = "develop")
-@PropertySource({"classpath:develop/application.yml"})
+@PropertySource(value = "classpath:develop/application.yml")
 public class ProfileDev {
 
 }

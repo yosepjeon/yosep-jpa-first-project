@@ -6,6 +6,6 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @Profile(value="production")
-@PropertySource({"classpath:develop/application.yml"})
+@PropertySource(value = "classpath:develop/application.yml")
 public class ProfileProd {
 }
