@@ -1,4 +1,4 @@
-package com.yosep.spring.order;
+package com.yosep.spring.order.entity;
 
 public enum OrderStatus {
     ORDER,

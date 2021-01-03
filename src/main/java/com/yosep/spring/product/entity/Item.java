@@ -1,6 +1,6 @@
-package com.yosep.spring.product;
+package com.yosep.spring.product.entity;
 
-import com.yosep.spring.category.Category;
+import com.yosep.spring.category.entity.Category;
 
 import javax.persistence.*;
 import java.util.ArrayList;

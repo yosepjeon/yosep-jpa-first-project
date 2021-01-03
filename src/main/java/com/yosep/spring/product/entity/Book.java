@@ -1,4 +1,4 @@
-package com.yosep.spring.product;
+package com.yosep.spring.product.entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package com.yosep.spring.category;
+package com.yosep.spring.category.entity;
 
-import com.yosep.spring.product.Item;
+import com.yosep.spring.product.entity.Item;
 import lombok.Getter;
 import lombok.Setter;
 

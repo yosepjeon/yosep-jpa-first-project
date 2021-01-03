@@ -1,7 +1,7 @@
-package com.yosep.spring.order;
+package com.yosep.spring.order.entity;
 
-import com.yosep.spring.delivery.Delivery;
-import com.yosep.spring.member.Member;
+import com.yosep.spring.delivery.entity.Delivery;
+import com.yosep.spring.member.entity.Member;
 import lombok.Getter;
 import lombok.Setter;
 

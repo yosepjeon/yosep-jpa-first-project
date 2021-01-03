@@ -1,7 +1,7 @@
-package com.yosep.spring.delivery;
+package com.yosep.spring.delivery.entity;
 
 import com.yosep.spring.common.Address;
-import com.yosep.spring.order.Order;
+import com.yosep.spring.order.entity.Order;
 import lombok.Getter;
 import lombok.Setter;
 
