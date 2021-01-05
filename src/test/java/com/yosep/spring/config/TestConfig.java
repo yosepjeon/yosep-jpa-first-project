@@ -1,4 +1,4 @@
-package com.yosep.spring.member.config;
+package com.yosep.spring.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.boot.test.context.TestConfiguration;

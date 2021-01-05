@@ -3,6 +3,7 @@ package com.yosep.spring.member.service;
 import com.yosep.spring.member.entity.Member;
 import com.yosep.spring.member.repository.MemberJpaRepository;
 import com.yosep.spring.member.repository.MemberRepository;
+import com.yosep.spring.member.repository.MemberRepositorySupport;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,10 +16,12 @@ import java.util.Optional;
 @Transactional(readOnly = true)
 public class MemberService {
     private final MemberJpaRepository memberRepository;
+    private final MemberRepositorySupport memberRepositorySupport;
 
     @Autowired
-    public MemberService(MemberJpaRepository memberRepository) {
+    public MemberService(MemberJpaRepository memberRepository, MemberRepositorySupport memberRepositorySupport) {
         this.memberRepository = memberRepository;
+        this.memberRepositorySupport = memberRepositorySupport;
     }
 
     @Transactional(readOnly = false)
