@@ -71,6 +71,7 @@ public class OrderServiceTest {
         int orderCount = 2;
 
         Long orderId = orderService.order(member.getId(), item.getId(), orderCount);
+        Assertions.assertEquals(8, item.getStockQuantity());
 
         // When
         orderService.cancelOrder(orderId);
